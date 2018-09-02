@@ -132,6 +132,7 @@ commands = {
     'A': takeargv,
     '⌊': map(math.floor),
     '⌈': map(math.ceil),
+    '%': reduce(operator.mod),
 
 }
 
